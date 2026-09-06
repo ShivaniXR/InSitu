@@ -1,0 +1,66 @@
+- !<AssetImportMetadata/2022911e-f916-4c30-b2da-5ad3c24e4be0>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 333cdf63-6d06-478c-820d-bade45f3987f
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 333cdf63-6d06-478c-820d-bade45f3987f
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 66f64613-b4cb-4aaa-a07c-eda7eec6b7f1
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/66f64613-b4cb-4aaa-a07c-eda7eec6b7f1>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 54e4d686-79cb-4ac4-a45d-3f2c66d0574b
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    fontA: false
+    fontB: false
+    fontC: false
+    fontD: false
+    fontE: false
+    names: false
+    notes: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - fontA: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      fontB: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      fontC: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      fontD: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      fontE: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      names: !<string[]>
+        []
+      notes: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input Asset.Asset fontA
+    - // @input Asset.Asset fontB
+    - // @input Asset.Asset fontC
+    - // @input Asset.Asset fontD
+    - // @input Asset.Asset fontE
+    - '// @input string[] names {"hint":"Family names exactly as Google Fonts spells them - this string is what goes into the SVG."}'
+    - '// @input string[] notes {"hint":"One-word character notes, shown under each name in the picker."}'

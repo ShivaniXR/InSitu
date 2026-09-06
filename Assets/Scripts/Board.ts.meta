@@ -1,0 +1,64 @@
+- !<AssetImportMetadata/99a1c442-70e7-47ea-a751-0bd7caf4afc8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c06088fb-3426-4d49-824b-8618adb71f89
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c06088fb-3426-4d49-824b-8618adb71f89
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 456dbe96-404f-4eb1-8568-4f6e463c8796
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/456dbe96-404f-4eb1-8568-4f6e463c8796>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: cbe29ba6-877e-4efe-98e1-5925a2e36e1e
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    boardDistance: false
+    boardHeight: false
+    boardWidth: false
+    camObject: false
+    standUpright: false
+    types: false
+    ui: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - ui: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      types: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      camObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      boardWidth: !<float> 160.000000
+      boardHeight: !<float> 105.000000
+      boardDistance: !<float> 210.000000
+      standUpright: true
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 ui
+    - // @input AssignableType_2 types
+    - // @input SceneObject camObject
+    - '// @input float boardWidth = 160 {"hint":"Board width in cm. ~160 reads as wall scale at conversational distance."}'
+    - // @input float boardHeight = 105
+    - '// @input float boardDistance = 210 {"hint":"Distance in cm from the origin the board is hung at"}'
+    - '// @input bool standUpright = true {"hint":"On a floor or table, stand the board up at the hit point instead of laying it flat."}'

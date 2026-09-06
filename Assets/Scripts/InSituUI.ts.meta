@@ -1,0 +1,58 @@
+- !<AssetImportMetadata/8167281f-0a4e-404d-9c85-e4232f69c2f6>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> c9fb8663-87f6-4f80-a387-dd4d872be8f1
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> c9fb8663-87f6-4f80-a387-dd4d872be8f1
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> b81d5ac1-8ad3-4efd-9016-3f80b9ce4dee
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/b81d5ac1-8ad3-4efd-9016-3f80b9ce4dee>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: a6752de1-276b-4b9e-88c0-0188c023c590
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    camObject: false
+    planeDepth: false
+    quadMesh: false
+    tileMaterial: false
+    uiMaterial: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - camObject: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      quadMesh: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      uiMaterial: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      tileMaterial: !<reference.Asset> 00000000-0000-0000-0000-000000000000
+      planeDepth: !<float> 120.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject camObject
+    - // @input Asset.Asset quadMesh
+    - // @input Asset.Asset uiMaterial
+    - // @input Asset.Asset tileMaterial
+    - '// @input float planeDepth = 120 {"hint":"Distance in cm from the camera to the UI plane"}'

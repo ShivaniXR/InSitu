@@ -1,0 +1,67 @@
+- !<AssetImportMetadata/9d7d65e3-ad20-4f94-b166-f2ffb8383d48>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 0b6b320b-06a3-4d32-bfc0-53006da96996
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 0b6b320b-06a3-4d32-bfc0-53006da96996
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> d6b8e3a4-f19b-498a-9920-cbb630764574
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/d6b8e3a4-f19b-498a-9920-cbb630764574>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 4027b90c-348d-4779-b699-f73786cebe2c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    board: false
+    boardKey: false
+    clearOnStart: false
+    endpoint: false
+    replayIntro: false
+    seedEmail: false
+    types: false
+    ui: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - ui: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      board: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      types: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      clearOnStart: false
+      replayIntro: false
+      endpoint: ""
+      boardKey: board
+      seedEmail: ""
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType_1 ui
+    - // @input AssignableType_2 board
+    - // @input AssignableType_3 types
+    - '// @input bool clearOnStart {"hint":"Wipe the saved board on start. Dev only."}'
+    - '// @input bool replayIntro {"hint":"Show the welcome card every start, without touching the board. For rehearsing."}'
+    - '// @input string endpoint {"hint":"Board server base URL, e.g. https://insitu.vercel.app"}'
+    - '// @input string boardKey = "board" {"hint":"Which board this Lens writes to. Your view page is <endpoint>/b/<key>."}'
+    - '// @input string seedEmail {"hint":"Pre-fill the remembered address. Dev convenience; leave blank to be prompted."}'
